@@ -1,5 +1,5 @@
 # n-jd
-search book from [jd.com](www.jd.com]. 
+search book from [jd.com](www.jd.com). 
 
 ## language
 Node
