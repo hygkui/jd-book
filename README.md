@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hygkui/jd-book.svg?branch=master)](https://travis-ci.org/hygkui/jd-book)
+
 # what is jd-book
 **jd-book** can help you get book's information from [jd.com](www.jd.com).
 
