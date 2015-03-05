@@ -1,7 +1,7 @@
 {
   "name": "jd-books",
   "author": "hygkui",
-  "version": "0.0.1",
+  "version": "0.4.1",
   "main": "index.js",
   "description": "get book info from www.jd.com",
   "scripts": {
@@ -9,7 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hygkui/jd-books.git"
+    "url": "https://github.com/hygkui/jd-book.git"
+  },
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/hygkui/jd-book/issues"
   },
   "dependencies": {
     "cheerio": "^0.18.0",
