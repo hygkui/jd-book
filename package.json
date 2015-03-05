@@ -1,9 +1,13 @@
 {
-  "name": "jd-books",
+  "name": "jd-book",
   "author": "hygkui",
   "version": "0.4.1",
   "main": "index.js",
   "description": "get book info from www.jd.com",
+  "keyword": [
+      "jd",
+      "book"
+  ],
   "scripts": {
       "test": "node ./tests/getbook-test.js"
   },
@@ -11,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/hygkui/jd-book.git"
   },
-  "license": "MIT license",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hygkui/jd-book/issues"
   },
