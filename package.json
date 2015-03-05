@@ -1,7 +1,7 @@
 {
   "name": "jd-book",
   "author": "hygkui",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "main": "index.js",
   "description": "get book info from www.jd.com",
   "keyword": [
