@@ -1,0 +1,18 @@
+{
+  "name": "jd-books",
+  "author": "hygkui",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "get book info from www.jd.com",
+  "scripts": {
+      "test": "node ./tests/getbook-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hygkui/jd-books.git"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "request": "~2.30.0"
+  }
+}
