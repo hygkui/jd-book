@@ -17,7 +17,7 @@ npm install jd-book --save
 
 ```
 var jdBook = require('jd-book');
-jdBook.getbook(url, options, callback);
+jdBook.getbook(options, callback);
 
 ```
 
@@ -25,11 +25,13 @@ jdBook.getbook(url, options, callback);
 
 ```
 var options = {
+    url: '',
     startStr: '',
     endStr: ''
 };
 ```
-for future changing, this parameter is **not required**, leave it with *null*.
+* url : is **required**, the url of the book.
+* the other two parameter is **not required**, leave it with *null*.
 
 ### callback
 define your own callback function, it provide two params:
@@ -49,7 +51,7 @@ var showResult = function (err, data) {
         console.log(data);
     }
 };
-jdBook.getbook(url, null, showResult);
+jdBook.getbook({url: url}, showResult);
 
 ```
 
@@ -75,6 +77,12 @@ the result should be like this：
 ```
 
 ## test
+
+```
+npm test
+```
+or
+
 ```
 node tests/getbook-test.js
 ```

@@ -36,7 +36,8 @@ var testCallback = function (err, data) {
 
 // 测试：通过
 var options_3 = {
+  url: book_url_1,
   startStr: startStr,
   endStr: endStr
 };
-jdBook.getbook(book_url_1, options_3, testCallback);
+jdBook.getbook(options_3, testCallback);
