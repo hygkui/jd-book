@@ -21,7 +21,7 @@ jdBook.getbook(options, callback);
 
 ```
 
-### options (optional)
+### options 
 
 ```
 var options = {
