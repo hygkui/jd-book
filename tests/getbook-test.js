@@ -1,9 +1,3 @@
-var book_url_1 = "http://item.jd.com/11371982.html";
-var startStr = 'window.pageConfig={compatible:true,searchType: 1,product:';
-var endStr = '};';
-var expect_book_skuid = '11371982';
-var expect_book_name = '聪明豆绘本系列（第2辑）（套装共9册）';
-
 var jdBook = require('../lib/jd-book.js');
 
 var test_1 = function (data) {
@@ -31,10 +25,9 @@ var test_2 = function (data) {
         console.log('test passed!');
     }
 };
-        
+
 
 // 测试：
-
 var url_1 = "http://item.jd.com/11371982.html";
 var url_2 = "http://item.jd.com/1171982.html";
 jdBook.getbook(url_1, test_1);

@@ -62,21 +62,14 @@ the result should be like this：
 { err: null,
   book: {
     skuid: '11371982',
-    skus: '',
     name: '聪明豆绘本系列（第2辑）（套装共9册）',
-    skuidkey: '682077079EEE09C350600AC871FCBB10',
-    href: 'http://item.jd.com/11371982.html',
-    src: 'g13/M04/11/0D/rBEhU1LTb8kIAAAAAAP8X7M6epEAAH3cwOFK2sAA_x3284.jpg',
+    url: undefined,
     jqimg: 'http://img10.360buyimg.com/n0/g13/M04/11/0D/rBEhU1LTb8kIAAAAAAP8X7M6epEAAH3cwOFK2sAA_x3284.jpg',
-    wMaprice: '134.10',
-    wMeprice: '103.10',
-    cat: [ 1713, 3263, 4761 ],
-    brand: '',
-    tips: false,
-    type: 1,
-    n: false,
-    g: false,
-    warestatus: 1
+    price: '134.10',
+    buy_price: '103.10',
+    author: '',
+    pub: '',
+    pub_time: ''
   }
 }
 ```
